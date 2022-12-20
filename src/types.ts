@@ -11,8 +11,8 @@ export interface ImageTag {
 export interface Image {
   key?: Key;
   src: string;
-  width: number;
-  height: number;
+  width?: number;
+  height?: number;
   nano?: string;
   alt?: string;
   tags?: ImageTag[];
