@@ -7,7 +7,7 @@
   "module": "dist/react-grid-gallery.esm.js",
   "browser": "dist/react-grid-gallery.umd.js",
   "publishConfig": {
-    "@KlopNeyho:react-grid-gallery-neyho": "https://npm.pkg.github.com"
+    "@klop-neyho:react-grid-gallery-neyho": "https://npm.pkg.github.com"
   },
   "files": [
     "dist",
