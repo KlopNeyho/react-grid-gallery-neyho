@@ -20,7 +20,7 @@ jobs:
           name: image_snapshots_diff_output
           path: test/__image_snapshots__/__diff_output__/
   publish-gpr:
-    needs: build
+    needs: build-and-test
     runs-on: ubuntu-latest
     permissions:
       packages: write
