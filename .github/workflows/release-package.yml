@@ -4,8 +4,6 @@ on:
   release:
     types: [created]
 
-name: Test
-on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
