@@ -6,6 +6,9 @@
   "main": "dist/react-grid-gallery.cjs.js",
   "module": "dist/react-grid-gallery.esm.js",
   "browser": "dist/react-grid-gallery.umd.js",
+  "publishConfig": {
+    "@KlopNeyho:registry": "https://npm.pkg.github.com"
+  },
   "files": [
     "dist",
     "src"
